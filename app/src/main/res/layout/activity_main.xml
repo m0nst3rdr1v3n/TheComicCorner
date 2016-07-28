@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thecomiccorner.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/comic2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comic"
+        android:layout_centerHorizontal="true"
+        android:textSize="42sp"
+        android:textColor="#B71C1C"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corner"
+        android:layout_centerHorizontal="true"
+        android:textSize="42sp"
+        android:layout_marginTop="40dp"
+        android:textColor="#B71C1C"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="all of your favorite titles!"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#ffffff"
+        android:textAllCaps="true"
+        android:textColor="#B71C1C"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="111 Harper Ave"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="St. clair shores, mi 48080"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Hours:"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#B71C1C"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Monday - Saturday: 10:00 - 8:00"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Sunday: Closed"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="www.thecomiccorner.com"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
